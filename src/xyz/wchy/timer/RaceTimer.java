@@ -76,9 +76,12 @@ public class RaceTimer implements Runnable
 			Collections.sort(horseList);
 			
 			StringBuffer sb = new StringBuffer("比赛结束，排名为：\r\n");
-			for(Horse horse : horseList) 
+			for(int i = 0; i < horseList.size(); i++) 
 			{
-				sb.append(horse).append(SystemConstant.LINE_SEPARATOR_WINDOWS);
+				sb.append("第");
+				sb.append(i + 1);
+				sb.append("名：");
+				sb.append(horseList.get(i)).append(SystemConstant.LINE_SEPARATOR_WINDOWS);
 			}
 			String message = sb.toString();
 			JOptionPane.showMessageDialog(null, message, "Horse Race Finish", JOptionPane.INFORMATION_MESSAGE);
