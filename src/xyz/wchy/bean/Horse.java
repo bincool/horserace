@@ -91,7 +91,7 @@ public class Horse extends Thread implements Comparable<Horse>, Cloneable
 	{
 		while (!DomainHelper.getInstance().isStop()) 
 		{
-			position += (int) (Math.random() * 10) + 1;
+			position += (int) (Math.random() * 7) + 1;
 
 			if (position >= 600) 
 			{
@@ -100,7 +100,7 @@ public class Horse extends Thread implements Comparable<Horse>, Cloneable
 			DomainHelper.getInstance().getHorsePanel().repaint();
 			try 
 			{
-				Thread.sleep(30);
+				Thread.sleep(50);
 			} 
 			catch (Exception ex) 
 			{

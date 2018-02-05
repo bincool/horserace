@@ -66,6 +66,7 @@ public class RaceTimer implements Runnable
 			DomainHelper.getInstance().getSubmitBtn().setText("¿ªÊ¼");
 			
 			// ÅÅÃû.
+			Thread.sleep(50);
 			Horse[] horses = DomainHelper.getInstance().getHorses();
 			List<Horse> horseList = new ArrayList<Horse>();
 			for (int i = 0; i < horses.length; i++) 
