@@ -1,7 +1,7 @@
 /**
 * @FileName: ApplicationConstant.java
 * @Package: xyz.wchy.constant
-* @Copyright: 2018 bincool.github.io Inc. All Rights Reserved.
+* @Copyright: 2018 io.github.bincool Inc. All Rights Reserved.
 * @Description: ApplicationConstant.java: 记事本常量-可配置.
 * @Author wchy，技术交流(891946049).
 * @Date 2018年1月31日 上午16:38:40.

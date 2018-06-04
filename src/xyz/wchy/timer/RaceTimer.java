@@ -1,7 +1,7 @@
 /**
 * @FileName: RaceTimer.java
 * @Package: xyz.wchy.timer
-* @Copyright: 2018 bincool.github.io Inc. All Rights Reserved.
+* @Copyright: 2018 io.github.bincool Inc. All Rights Reserved.
 * @Description: RaceTimer.java: 比赛时间.
 * @Author wchy，技术交流(891946049).
 * @Date 2018年2月1日 下午4:46:38.
