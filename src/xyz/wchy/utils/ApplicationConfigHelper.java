@@ -1,7 +1,7 @@
 /**
 * @FileName: ApplicationConfigHelper.java
 * @Package: xyz.wchy.utils
-* @Copyright: 2018 io.github.bincool Inc. All Rights Reserved.
+* @Copyright: 2018 bincool.github.io Inc. All Rights Reserved.
 * @Description: ApplicationConfigHelper.java: 应用配置帮助类.
 * @Author wchy，技术交流(891946049).
 * @Date 2018年1月31日 上午16:38:40.
