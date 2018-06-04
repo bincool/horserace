@@ -1,7 +1,7 @@
 /**
 * @FileName: SubmitAction.java
 * @Package: xyz.wchy.action
-* @Copyright: 2018 www.wchy.xyz Inc. All Rights Reserved.
+* @Copyright: 2018 io.github.bincool Inc. All Rights Reserved.
 * @Description: SubmitAction.java: 赛马比赛提交事件.
 * @Author wchy，技术交流(891946049).
 * @Date 2018年2月1日 下午2:08:11.

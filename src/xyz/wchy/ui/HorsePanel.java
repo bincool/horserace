@@ -1,7 +1,7 @@
 /**
 * @FileName: HorsePanel.java
 * @Package: xyz.wchy.ui
-* @Copyright: 2018 www.wchy.xyz Inc. All Rights Reserved.
+* @Copyright: 2018 io.github.bincool Inc. All Rights Reserved.
 * @Description: HorsePanel.java: 赛马场panel.
 * @Author wchy，技术交流(891946049).
 * @Date 2018年2月1日 下午12:32:19.

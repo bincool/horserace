@@ -1,7 +1,7 @@
 /**
 * @FileName: TextNumberLimited.java
 * @Package: xyz.wchy.utils
-* @Copyright: 2018 www.wchy.xyz Inc. All Rights Reserved.
+* @Copyright: 2018 io.github.bincool Inc. All Rights Reserved.
 * @Description: TextNumberLimited.java: 文本输入框数字限制.
 * @Author wchy，技术交流(891946049).
 * @Date 2018年2月1日 下午3:46:31.

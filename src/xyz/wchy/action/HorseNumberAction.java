@@ -1,7 +1,7 @@
 /**
 * @FileName: HorseNumberAction.java
 * @Package: xyz.wchy.action
-* @Copyright: 2018 www.wchy.xyz Inc. All Rights Reserved.
+* @Copyright: 2018 io.github.bincool Inc. All Rights Reserved.
 * @Description: HorseNumberAction.java: 马匹输入框事件.
 * @Author wchy，技术交流(891946049).
 * @Date 2018年2月1日 下午4:13:15.
