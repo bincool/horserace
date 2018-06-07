@@ -1,7 +1,7 @@
 /**
 * @FileName: Horse.java
 * @Package: xyz.wchy.bean
-* @Copyright: 2018 io.github.bincool Inc. All Rights Reserved.
+* @Copyright: 2018 bincool.github.io Inc. All Rights Reserved.
 * @Description: Horse.java: 马匹bean.
 * @Author wchy，技术交流(891946049).
 * @Date 2018年2月1日 上午11:37:14.
