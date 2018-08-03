@@ -2,10 +2,10 @@
 * @FileName: ApplicationConfigHelper.java
 * @Package: xyz.wchy.utils
 * @Copyright: 2018 bincool.github.io Inc. All Rights Reserved.
-* @Description: ApplicationConfigHelper.java: Ó¦ÓÃÅäÖÃ°ïÖúÀà.
-* @Author wchy£¬¼¼Êõ½»Á÷(891946049).
-* @Date 2018Äê1ÔÂ31ÈÕ ÉÏÎç16:38:40.
-* @Content: ĞÂÔö.
+* @Description: ApplicationConfigHelper.java: åº”ç”¨é…ç½®å¸®åŠ©ç±».
+* @Author wchyï¼ŒæŠ€æœ¯äº¤æµ(891946049).
+* @Date 2018å¹´1æœˆ31æ—¥ ä¸Šåˆ16:38:40.
+* @Content: æ–°å¢.
 * @Version: V1.0.
 */
 package xyz.wchy.utils;
@@ -24,40 +24,40 @@ import java.util.Properties;
  * 
  * @Description:
  * <p>
- * ¶ÁÈ¡propertiesÅäÖÃÎÄ¼ş.
+ * è¯»å–propertiesé…ç½®æ–‡ä»¶.
  * </p>
  * <p>
- * ÏêÏ¸ÃèÊö.
+ * è¯¦ç»†æè¿°.
  * </p>
  * <p>
- * Ê¾Àı´úÂë.
+ * ç¤ºä¾‹ä»£ç .
  * </p>
  *
- * @Author: wchy£¬¼¼Êõ½»Á÷(891946049).
+ * @Author: wchyï¼ŒæŠ€æœ¯äº¤æµ(891946049).
  * 
- * @Date: 2018Äê1ÔÂ31ÈÕ ÉÏÎç16:38:40.
+ * @Date: 2018å¹´1æœˆ31æ—¥ ä¸Šåˆ16:38:40.
  * 
  */
 public class ApplicationConfigHelper 
 {
 	
 	/**
-	 * ÅäÖÃÎÄ¼şÂ·¾¶.
+	 * é…ç½®æ–‡ä»¶è·¯å¾„.
 	 */
 	private static final String configFilePath = "configs\\application.properties";
 
 	/**
-	 * µ¥Àı¶ÔÏó.
+	 * å•ä¾‹å¯¹è±¡.
 	 */
 	private static ApplicationConfigHelper instance = null;
 
 	/**
-	 * ÊôĞÔmap»º´æ¼¯ºÏ.
+	 * å±æ€§mapç¼“å­˜é›†åˆ.
 	 */
 	private static Map<String, String> propMap = new HashMap<String, String>();
 
 	/**
-	 * Ë½ÓĞ¹¹Ôìº¯Êı.
+	 * ç§æœ‰æ„é€ å‡½æ•°.
 	 */
 	private ApplicationConfigHelper() 
 	{
@@ -109,7 +109,7 @@ public class ApplicationConfigHelper
 	}
 
 	/**
-	 * »ñÈ¡µ¥Àı¶ÔÏó.
+	 * è·å–å•ä¾‹å¯¹è±¡.
 	 * @return
 	 */
 	public static ApplicationConfigHelper getInstance() 
@@ -123,7 +123,7 @@ public class ApplicationConfigHelper
 	}
 
 	/**
-	 * »ñÈ¡ÊôĞÔmap»º´æ¼¯ºÏ.
+	 * è·å–å±æ€§mapç¼“å­˜é›†åˆ.
 	 * @return
 	 */
 	public Map<String, String> getPropMap() 

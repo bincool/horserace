@@ -2,10 +2,10 @@
 * @FileName: HorseRace.java
 * @Package: xyz.wchy
 * @Copyright: 2018 bincool.github.io Inc. All Rights Reserved.
-* @Description: HorseRace.java: ÈüÂíÓÎÏ·.
-* @Author wchy£¬¼¼Êõ½»Á÷(891946049).
-* @Date 2018Äê1ÔÂ31ÈÕ ÏÂÎç4:42:55.
-* @Content: ĞÂÔö.
+* @Description: HorseRace.java: èµ›é©¬æ¸¸æˆ.
+* @Author wchyï¼ŒæŠ€æœ¯äº¤æµ(891946049).
+* @Date 2018å¹´1æœˆ31æ—¥ ä¸‹åˆ4:42:55.
+* @Content: æ–°å¢.
 * @Version: V1.0.
 */
 package xyz.wchy;
@@ -29,40 +29,40 @@ import xyz.wchy.utils.Logger;
 * 
 * @Description: 
 * <p>
-* ÈüÂíÓÎÏ·-¿É±ÈÈüÊ±¼ä£¬ÂíÆ¥µÄÊıÁ¿µÈµÈ.
+* èµ›é©¬æ¸¸æˆ-å¯æ¯”èµ›æ—¶é—´ï¼Œé©¬åŒ¹çš„æ•°é‡ç­‰ç­‰.
 * </p>
 * <p>
-* ÏêÏ¸ÃèÊö.
+* è¯¦ç»†æè¿°.
 * </p>
 * <p>
-* Ê¾Àı´úÂë.
+* ç¤ºä¾‹ä»£ç .
 * </p>
 *
-* @Author: wchy£¬¼¼Êõ½»Á÷(891946049).
+* @Author: wchyï¼ŒæŠ€æœ¯äº¤æµ(891946049).
 * 
-* @Date: 2018Äê1ÔÂ31ÈÕ ÏÂÎç4:42:55.
+* @Date: 2018å¹´1æœˆ31æ—¥ ä¸‹åˆ4:42:55.
 * 
 */
 public class HorseRace 
 {
 
 	/**
-	 * ÁìÓò¶ÔÏó.
+	 * é¢†åŸŸå¯¹è±¡.
 	 */
 	private static final DomainHelper domain = DomainHelper.getInstance();
 
 	/**
-	 * ÈÕÖ¾¶ÔÏó.
+	 * æ—¥å¿—å¯¹è±¡.
 	 */
 	private static final Logger LOGGER = Logger.getLogger();
 
 	/**
-	 * Ö÷´°Ìå.
+	 * ä¸»çª—ä½“.
 	 */
 	private JFrame frame;
 
 	/**
-	 * ÎŞ²Î¹¹Ôìº¯Êı.
+	 * æ— å‚æ„é€ å‡½æ•°.
 	 */
 	public HorseRace() 
 	{
@@ -75,7 +75,7 @@ public class HorseRace
 	private void initialize() 
 	{
 		
-		// Ö÷´°Ìå.
+		// ä¸»çª—ä½“.
 		frame = domain.getFrame();
 		frame.setIconImage(Toolkit.getDefaultToolkit().getImage(ApplicationConstant.FRAME_ICON_PATH));
 		frame.setTitle(ApplicationConstant.FRAME_TITLE);
@@ -96,7 +96,7 @@ public class HorseRace
 	}
 
 	/**
-	 * Ö÷·½·¨. Launch the application.
+	 * ä¸»æ–¹æ³•. Launch the application.
 	 */
 	public static void main(String[] args) 
 	{
@@ -106,10 +106,10 @@ public class HorseRace
 			{
 				try 
 				{
-					// ÉèÖÃ¶Ô»°¿òµÄ·ç¸ñ.
+					// è®¾ç½®å¯¹è¯æ¡†çš„é£æ ¼.
 					UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
 
-					// ´´½¨Ò»¸ö¼ÇÊÂ±¾¶ÔÏó.
+					// åˆ›å»ºä¸€ä¸ªè®°äº‹æœ¬å¯¹è±¡.
 					HorseRace window = new HorseRace();
 					window.frame.setVisible(true);
 				} 

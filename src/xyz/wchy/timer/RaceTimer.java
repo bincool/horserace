@@ -2,10 +2,10 @@
 * @FileName: RaceTimer.java
 * @Package: xyz.wchy.timer
 * @Copyright: 2018 bincool.github.io Inc. All Rights Reserved.
-* @Description: RaceTimer.java: ±ÈÈüÊ±¼ä.
-* @Author wchy£¬¼¼Êõ½»Á÷(891946049).
-* @Date 2018Äê2ÔÂ1ÈÕ ÏÂÎç4:46:38.
-* @Content: ĞÂÔö.
+* @Description: RaceTimer.java: æ¯”èµ›æ—¶é—´.
+* @Author wchyï¼ŒæŠ€æœ¯äº¤æµ(891946049).
+* @Date 2018å¹´2æœˆ1æ—¥ ä¸‹åˆ4:46:38.
+* @Content: æ–°å¢.
 * @Version: V1.0.
 */
 package xyz.wchy.timer;
@@ -25,25 +25,25 @@ import xyz.wchy.utils.DomainHelper;
 * 
 * @Description: 
 * <p>
-* ±ÈÈüÊ±¼ä.
+* æ¯”èµ›æ—¶é—´.
 * </p>
 * <p>
-* ±ÈÈüÊ±¼ä.
+* æ¯”èµ›æ—¶é—´.
 * </p>
 * <p>
-* ±ÈÈüÊ±¼ä.
+* æ¯”èµ›æ—¶é—´.
 * </p>
 *
-* @Author: wchy£¬¼¼Êõ½»Á÷(891946049).
+* @Author: wchyï¼ŒæŠ€æœ¯äº¤æµ(891946049).
 * 
-* @Date: 2018Äê2ÔÂ1ÈÕ ÏÂÎç4:46:38.
+* @Date: 2018å¹´2æœˆ1æ—¥ ä¸‹åˆ4:46:38.
 * 
 */
 public class RaceTimer implements Runnable
 {
 	
 	/**
-	 * ±ÈÈüÊ±¼ä(Ãë).
+	 * æ¯”èµ›æ—¶é—´(ç§’).
 	 */
 	private int timeNumber;
 	
@@ -63,9 +63,9 @@ public class RaceTimer implements Runnable
 			DomainHelper.getInstance().setStop(false);
 			Thread.sleep(timeNumber * 1000);
 			DomainHelper.getInstance().setStop(true);
-			DomainHelper.getInstance().getSubmitBtn().setText("¿ªÊ¼");
+			DomainHelper.getInstance().getSubmitBtn().setText("å¼€å§‹");
 			
-			// ÅÅÃû.
+			// æ’å.
 			Thread.sleep(50);
 			Horse[] horses = DomainHelper.getInstance().getHorses();
 			List<Horse> horseList = new ArrayList<Horse>();
@@ -76,12 +76,12 @@ public class RaceTimer implements Runnable
 			}
 			Collections.sort(horseList);
 			
-			StringBuffer sb = new StringBuffer("±ÈÈü½áÊø£¬ÅÅÃûÎª£º\r\n");
+			StringBuffer sb = new StringBuffer("æ¯”èµ›ç»“æŸï¼Œæ’åä¸ºï¼š\r\n");
 			for(int i = 0; i < horseList.size(); i++) 
 			{
-				sb.append("µÚ");
+				sb.append("ç¬¬");
 				sb.append(i + 1);
-				sb.append("Ãû£º");
+				sb.append("åï¼š");
 				sb.append(horseList.get(i)).append(SystemConstant.LINE_SEPARATOR_WINDOWS);
 			}
 			String message = sb.toString();

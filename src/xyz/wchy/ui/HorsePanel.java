@@ -2,10 +2,10 @@
 * @FileName: HorsePanel.java
 * @Package: xyz.wchy.ui
 * @Copyright: 2018 bincool.github.io Inc. All Rights Reserved.
-* @Description: HorsePanel.java: ÈüÂí³¡panel.
-* @Author wchy£¬¼¼Êõ½»Á÷(891946049).
-* @Date 2018Äê2ÔÂ1ÈÕ ÏÂÎç12:32:19.
-* @Content: ĞÂÔö.
+* @Description: HorsePanel.java: èµ›é©¬åœºpanel.
+* @Author wchyï¼ŒæŠ€æœ¯äº¤æµ(891946049).
+* @Date 2018å¹´2æœˆ1æ—¥ ä¸‹åˆ12:32:19.
+* @Content: æ–°å¢.
 * @Version: V1.0.
 */
 package xyz.wchy.ui;
@@ -24,18 +24,18 @@ import xyz.wchy.utils.DomainHelper;
 * 
 * @Description: 
 * <p>
-* ÈüÂí³¡panel.
+* èµ›é©¬åœºpanel.
 * </p>
 * <p>
-* ÏêÏ¸ÃèÊö.
+* è¯¦ç»†æè¿°.
 * </p>
 * <p>
-* Ê¾Àı´úÂë.
+* ç¤ºä¾‹ä»£ç .
 * </p>
 *
-* @Author: wchy£¬¼¼Êõ½»Á÷(891946049).
+* @Author: wchyï¼ŒæŠ€æœ¯äº¤æµ(891946049).
 * 
-* @Date: 2018Äê2ÔÂ1ÈÕ ÏÂÎç12:32:19.
+* @Date: 2018å¹´2æœˆ1æ—¥ ä¸‹åˆ12:32:19.
 * 
 */
 public class HorsePanel extends JPanel 
@@ -76,8 +76,8 @@ public class HorsePanel extends JPanel
 			{
 				g.drawImage(img, DomainHelper.getInstance().getHorses()[i].getPosition(), i * 60, this);
 				
-				g.setColor(Color.red);//ÉèÖÃµ±Ç°»æÍ¼ÑÕÉ«
-				g.drawString((i + 1) + "ºÅ", DomainHelper.getInstance().getHorses()[i].getPosition() + 60, i * 60 + 10);
+				g.setColor(Color.red);//è®¾ç½®å½“å‰ç»˜å›¾é¢œè‰²
+				g.drawString((i + 1) + "å·", DomainHelper.getInstance().getHorses()[i].getPosition() + 60, i * 60 + 10);
 			}
 		}
 	}

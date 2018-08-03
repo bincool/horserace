@@ -2,10 +2,10 @@
 * @FileName: HorseNumberAction.java
 * @Package: xyz.wchy.action
 * @Copyright: 2018 bincool.github.io Inc. All Rights Reserved.
-* @Description: HorseNumberAction.java: ÂíÆ¥ÊäÈë¿òÊÂ¼ş.
-* @Author wchy£¬¼¼Êõ½»Á÷(891946049).
-* @Date 2018Äê2ÔÂ1ÈÕ ÏÂÎç4:13:15.
-* @Content: ĞÂÔö.
+* @Description: HorseNumberAction.java: é©¬åŒ¹è¾“å…¥æ¡†äº‹ä»¶.
+* @Author wchyï¼ŒæŠ€æœ¯äº¤æµ(891946049).
+* @Date 2018å¹´2æœˆ1æ—¥ ä¸‹åˆ4:13:15.
+* @Content: æ–°å¢.
 * @Version: V1.0.
 */
 package xyz.wchy.action;
@@ -26,18 +26,18 @@ import xyz.wchy.utils.StringUtils;
 * 
 * @Description: 
 * <p>
-* ÂíÆ¥ÊäÈë¿òÊÂ¼ş.
+* é©¬åŒ¹è¾“å…¥æ¡†äº‹ä»¶.
 * </p>
 * <p>
-* ÏêÏ¸ÃèÊö.
+* è¯¦ç»†æè¿°.
 * </p>
 * <p>
-* Ê¾Àı´úÂë.
+* ç¤ºä¾‹ä»£ç .
 * </p>
 *
-* @Author: wchy£¬¼¼Êõ½»Á÷(891946049).
+* @Author: wchyï¼ŒæŠ€æœ¯äº¤æµ(891946049).
 * 
-* @Date: 2018Äê2ÔÂ1ÈÕ ÏÂÎç4:13:15.
+* @Date: 2018å¹´2æœˆ1æ—¥ ä¸‹åˆ4:13:15.
 * 
 */
 public class HorseNumberAction extends PlainDocument 
@@ -82,19 +82,19 @@ public class HorseNumberAction extends PlainDocument
 			
 			if (horseNumber < 1 || horseNumber > 12) 
 			{
-				JOptionPane.showMessageDialog(domain.getFrame(), "Îª·½±ãÑİÊ¾£¬ÂíÆ¥ÊıÇëÊäÈë1-12Æ¥!", "Horse Race Warn", JOptionPane.WARNING_MESSAGE);
+				JOptionPane.showMessageDialog(domain.getFrame(), "ä¸ºæ–¹ä¾¿æ¼”ç¤ºï¼Œé©¬åŒ¹æ•°è¯·è¾“å…¥1-12åŒ¹!", "Horse Race Warn", JOptionPane.WARNING_MESSAGE);
 				domain.getHorseNumberTf().setText("9");
 				horseNumber = 10;
 			} 
 			
-			// ÉèÖÃÂíÆ¥ÊıÁ¿.
+			// è®¾ç½®é©¬åŒ¹æ•°é‡.
 			Horse[] horses = new Horse[horseNumber];
 			for (int i = 0; i < horseNumber; i++) 
 			{
 				horses[i] = new Horse(i + 1);
 			}
 			domain.setHorses(horses);
-			domain.getSubmitBtn().setText("¿ªÊ¼");
+			domain.getSubmitBtn().setText("å¼€å§‹");
 			
 		}
 	}

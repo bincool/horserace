@@ -2,10 +2,10 @@
 * @FileName: BaseData.java
 * @Package: xyz.wchy.bean
 * @Copyright: 2018 bincool.github.io Inc. All Rights Reserved.
-* @Description: BaseData.java: »ù´¡¿ò¼ÜÊı¾İ.
-* @Author wchy£¬¼¼Êõ½»Á÷(891946049).
-* @Date 2018Äê1ÔÂ31ÈÕ ÉÏÎç16:38:40.
-* @Content: ĞÂÔö.
+* @Description: BaseData.java: åŸºç¡€æ¡†æ¶æ•°æ®.
+* @Author wchyï¼ŒæŠ€æœ¯äº¤æµ(891946049).
+* @Date 2018å¹´1æœˆ31æ—¥ ä¸Šåˆ16:38:40.
+* @Content: æ–°å¢.
 * @Version: V1.0.
 */
 package xyz.wchy.base;
@@ -17,30 +17,30 @@ import xyz.wchy.utils.Logger;
 * 
 * @Description: 
 * <p>
-* »ù´¡¿ò¼ÜÊı¾İ.
+* åŸºç¡€æ¡†æ¶æ•°æ®.
 * </p>
 * <p>
-* ÏêÏ¸ÃèÊö.
+* è¯¦ç»†æè¿°.
 * </p>
 * <p>
-* Ê¾Àı´úÂë.
+* ç¤ºä¾‹ä»£ç .
 * </p>
 *
-* @Author: wchy£¬¼¼Êõ½»Á÷(891946049).
+* @Author: wchyï¼ŒæŠ€æœ¯äº¤æµ(891946049).
 * 
-* @Date: 2018Äê1ÔÂ31ÈÕ ÉÏÎç16:38:40.
+* @Date: 2018å¹´1æœˆ31æ—¥ ä¸Šåˆ16:38:40.
 * 
 */
 public abstract class BaseData 
 {
 	
 	/**
-	 * ÁìÓò¶ÔÏó.
+	 * é¢†åŸŸå¯¹è±¡.
 	 */
 	protected static final DomainHelper domain = DomainHelper.getInstance();
 	
 	/**
-	 * ÈÕÖ¾¶ÔÏó.
+	 * æ—¥å¿—å¯¹è±¡.
 	 */
 	protected static final Logger LOGGER = Logger.getLogger();
 	

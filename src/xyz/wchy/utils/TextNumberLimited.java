@@ -2,10 +2,10 @@
 * @FileName: TextNumberLimited.java
 * @Package: xyz.wchy.utils
 * @Copyright: 2018 bincool.github.io Inc. All Rights Reserved.
-* @Description: TextNumberLimited.java: ÎÄ±¾ÊäÈë¿òÊı×ÖÏŞÖÆ.
-* @Author wchy£¬¼¼Êõ½»Á÷(891946049).
-* @Date 2018Äê2ÔÂ1ÈÕ ÏÂÎç3:46:31.
-* @Content: ĞÂÔö.
+* @Description: TextNumberLimited.java: æ–‡æœ¬è¾“å…¥æ¡†æ•°å­—é™åˆ¶.
+* @Author wchyï¼ŒæŠ€æœ¯äº¤æµ(891946049).
+* @Date 2018å¹´2æœˆ1æ—¥ ä¸‹åˆ3:46:31.
+* @Content: æ–°å¢.
 * @Version: V1.0.
 */
 package xyz.wchy.utils;
@@ -21,18 +21,18 @@ import javax.swing.text.PlainDocument;
 * 
 * @Description: 
 * <p>
-* ÎÄ±¾ÊäÈë¿òÊı×ÖÏŞÖÆ.
+* æ–‡æœ¬è¾“å…¥æ¡†æ•°å­—é™åˆ¶.
 * </p>
 * <p>
-* ÏêÏ¸ÃèÊö.
+* è¯¦ç»†æè¿°.
 * </p>
 * <p>
-* Ê¾Àı´úÂë.
+* ç¤ºä¾‹ä»£ç .
 * </p>
 *
-* @Author: wchy£¬¼¼Êõ½»Á÷(891946049).
+* @Author: wchyï¼ŒæŠ€æœ¯äº¤æµ(891946049).
 * 
-* @Date: 2018Äê2ÔÂ1ÈÕ ÏÂÎç3:46:31.
+* @Date: 2018å¹´2æœˆ1æ—¥ ä¸‹åˆ3:46:31.
 * 
 */
 public class TextNumberLimited extends PlainDocument 

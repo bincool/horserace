@@ -2,10 +2,10 @@
 * @FileName: ApplicationConstant.java
 * @Package: xyz.wchy.constant
 * @Copyright: 2018 bincool.github.io Inc. All Rights Reserved.
-* @Description: ApplicationConstant.java: ¼ÇÊÂ±¾³£Á¿-¿ÉÅäÖÃ.
-* @Author wchy£¬¼¼Êõ½»Á÷(891946049).
-* @Date 2018Äê1ÔÂ31ÈÕ ÉÏÎç16:38:40.
-* @Content: ĞÂÔö.
+* @Description: ApplicationConstant.java: è®°äº‹æœ¬å¸¸é‡-å¯é…ç½®.
+* @Author wchyï¼ŒæŠ€æœ¯äº¤æµ(891946049).
+* @Date 2018å¹´1æœˆ31æ—¥ ä¸Šåˆ16:38:40.
+* @Content: æ–°å¢.
 * @Version: V1.0.
 */
 package xyz.wchy.constant;
@@ -19,35 +19,35 @@ import xyz.wchy.utils.ApplicationConfigHelper;
 * 
 * @Description: 
 * <p>
-* ¼ÇÊÂ±¾³£Á¿-¿ÉÔÚapplication.propertiesÖĞÅäÖÃÆä³£Á¿¾ßÌåÖµ.
+* è®°äº‹æœ¬å¸¸é‡-å¯åœ¨application.propertiesä¸­é…ç½®å…¶å¸¸é‡å…·ä½“å€¼.
 * </p>
 * <p>
-* ÏêÏ¸ÃèÊö.
+* è¯¦ç»†æè¿°.
 * </p>
 * <p>
-* Ê¾Àı´úÂë.
+* ç¤ºä¾‹ä»£ç .
 * </p>
 *
-* @Author: wchy£¬¼¼Êõ½»Á÷(891946049).
+* @Author: wchyï¼ŒæŠ€æœ¯äº¤æµ(891946049).
 * 
-* @Date: 2018Äê1ÔÂ31ÈÕ ÉÏÎç16:38:40.
+* @Date: 2018å¹´1æœˆ31æ—¥ ä¸Šåˆ16:38:40.
 * 
 */
 public interface ApplicationConstant 
 {
 	
 	/**
-	 * Ó¦ÓÃÅäÖÃ.
+	 * åº”ç”¨é…ç½®.
 	 */
 	Map<String, String> APP_CONFIGS = ApplicationConfigHelper.getInstance().getPropMap();
 	
 	/**
-	 * FrameÍ¼±êÂ·¾¶.
+	 * Frameå›¾æ ‡è·¯å¾„.
 	 */
 	String FRAME_ICON_PATH = APP_CONFIGS.get("frame.icon.path");
 	
 	/**
-	 * Frame±êÌâ.
+	 * Frameæ ‡é¢˜.
 	 */
 	String FRAME_TITLE = APP_CONFIGS.get("frame.title");
 	

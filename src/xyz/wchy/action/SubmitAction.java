@@ -2,10 +2,10 @@
 * @FileName: SubmitAction.java
 * @Package: xyz.wchy.action
 * @Copyright: 2018 bincool.github.io Inc. All Rights Reserved.
-* @Description: SubmitAction.java: ÈüÂí±ÈÈüÌá½»ÊÂ¼ş.
-* @Author wchy£¬¼¼Êõ½»Á÷(891946049).
-* @Date 2018Äê2ÔÂ1ÈÕ ÏÂÎç2:08:11.
-* @Content: ĞÂÔö.
+* @Description: SubmitAction.java: èµ›é©¬æ¯”èµ›æäº¤äº‹ä»¶.
+* @Author wchyï¼ŒæŠ€æœ¯äº¤æµ(891946049).
+* @Date 2018å¹´2æœˆ1æ—¥ ä¸‹åˆ2:08:11.
+* @Content: æ–°å¢.
 * @Version: V1.0.
 */
 package xyz.wchy.action;
@@ -24,18 +24,18 @@ import xyz.wchy.timer.RaceTimer;
 * 
 * @Description: 
 * <p>
-* ÈüÂí±ÈÈüÌá½»ÊÂ¼ş.
+* èµ›é©¬æ¯”èµ›æäº¤äº‹ä»¶.
 * </p>
 * <p>
-* ÏêÏ¸ÃèÊö.
+* è¯¦ç»†æè¿°.
 * </p>
 * <p>
-* Ê¾Àı´úÂë.
+* ç¤ºä¾‹ä»£ç .
 * </p>
 *
-* @Author: wchy£¬¼¼Êõ½»Á÷(891946049).
+* @Author: wchyï¼ŒæŠ€æœ¯äº¤æµ(891946049).
 * 
-* @Date: 2018Äê2ÔÂ1ÈÕ ÏÂÎç2:08:11.
+* @Date: 2018å¹´2æœˆ1æ—¥ ä¸‹åˆ2:08:11.
 * 
 */
 public class SubmitAction extends BaseData implements ActionListener 
@@ -50,7 +50,7 @@ public class SubmitAction extends BaseData implements ActionListener
 	{
 		Horse[] horses = domain.getHorses();
 
-		if (e.getActionCommand() == "¿ªÊ¼") 
+		if (e.getActionCommand() == "å¼€å§‹") 
 		{
 			int horseNumber = 0;
 			try 
@@ -59,7 +59,7 @@ public class SubmitAction extends BaseData implements ActionListener
 			} 
 			catch (Exception e1) 
 			{
-				showMessageDialog("ÂíÆ¥ºÍÊ±¼äÊäÈë·Ç·¨!");
+				showMessageDialog("é©¬åŒ¹å’Œæ—¶é—´è¾“å…¥éæ³•!");
 				domain.getHorseNumberTf().setText("3");
 				domain.getTimeNumberTf().setText("9");
 				return;
@@ -93,32 +93,32 @@ public class SubmitAction extends BaseData implements ActionListener
 				Thread thread1 = new Thread(new RaceTimer(raceNumber), "timer");
                 thread1.start();
 				
-				// Æô¶¯±ÈÈü.
+				// å¯åŠ¨æ¯”èµ›.
 				for (Horse horse : horses) 
 				{
 					horse.start();
 				}
 				
-				domain.getSubmitBtn().setText("±ÈÈüÖĞ");;
+				domain.getSubmitBtn().setText("æ¯”èµ›ä¸­");;
 			} 
 			else 
 			{
-				showMessageDialog("Îª·½±ãÑİÊ¾£¬ÂíÆ¥ÊıÇëÊäÈë1-12Æ¥!");
+				showMessageDialog("ä¸ºæ–¹ä¾¿æ¼”ç¤ºï¼Œé©¬åŒ¹æ•°è¯·è¾“å…¥1-12åŒ¹!");
 			}
 		} 
-		else if (e.getActionCommand() == "±ÈÈüÖĞ") 
+		else if (e.getActionCommand() == "æ¯”èµ›ä¸­") 
 		{
 			for (Horse horse : horses) 
 			{
 				horse.resume();
 			}
 
-			domain.getSubmitBtn().setText("±ÈÈüÖĞ");
+			domain.getSubmitBtn().setText("æ¯”èµ›ä¸­");
 		}
 	}
 	
 	/**
-	 * ¾¯¸æµ¯¿ò.
+	 * è­¦å‘Šå¼¹æ¡†.
 	 * @param message
 	 */
 	private void showMessageDialog(String message) 

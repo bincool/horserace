@@ -2,10 +2,10 @@
 * @FileName: StringBuilderWriter.java
 * @Package: xyz.wchy.utils
 * @Copyright: 2018 bincool.github.io Inc. All Rights Reserved.
-* @Description: StringBuilderWriter.java: StringBuilder´¦ÀíÀà.
-* @Author wchy£¬¼¼Êõ½»Á÷(891946049).
-* @Date 2018Äê1ÔÂ31ÈÕ ÉÏÎç16:38:40.
-* @Content: ĞÂÔö.
+* @Description: StringBuilderWriter.java: StringBuilderë‡¹ì¿ìš.
+* @Author wchyï¼Œì„¸æ¸›ìŠ¥ì§(891946049).
+* @Date 2018ì¾¨1å¢©31íœ‘ ï¿½é·—ï¿½16:38:40.
+* @Content: åŠ¤è—¤.
 * @Version: V1.0.
 */
 package xyz.wchy.utils;
@@ -18,30 +18,30 @@ import java.io.Writer;
 * 
 * @Description: 
 * <p>
-* StringBuilder´¦ÀíÀà.
+* StringBuilderë‡¹ì¿ìš.
 * </p>
 * <p>
-* ÏêÏ¸ÃèÊö.
+* åœˆç–ì·„ç”˜.
 * </p>
 * <p>
-* Ê¾Àı´úÂë.
+* åˆ»ì ˆëœì¯¤.
 * </p>
 *
-* @Author: wchy£¬¼¼Êõ½»Á÷(891946049).
+* @Author: wchyï¼Œì„¸æ¸›ìŠ¥ì§(891946049).
 * 
-* @Date: 2018Äê1ÔÂ31ÈÕ ÉÏÎç16:38:40.
+* @Date: 2018ì¾¨1å¢©31íœ‘ ï¿½é·—ï¿½16:38:40.
 * 
 */
 public class StringBuilderWriter extends Writer implements Serializable 
 {
 	
 	/**
-	 * ĞòÁĞ°æ±¾ºÅ.
+	 * åŸ¼ì£—ê²½êµ¶ëµ€.
 	 */
 	private static final long serialVersionUID = 1L;
 	
 	/**
-	 * ÄÚ´æµØÖ·¿é.
+	 * ì½”ë‹¸ë’ˆå›¹ìš¥.
 	 */
 	private final StringBuilder builder;
 	

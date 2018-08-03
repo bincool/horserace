@@ -2,10 +2,10 @@
 * @FileName: LayoutPanel.java
 * @Package: xyz.wchy.ui
 * @Copyright: 2018 bincool.github.io Inc. All Rights Reserved.
-* @Description: LayoutPanel.java: UI²¼¾Ö.
-* @Author wchy£¬¼¼Êõ½»Á÷(891946049).
-* @Date 2018Äê2ÔÂ1ÈÕ ÏÂÎç12:30:27.
-* @Content: ĞÂÔö.
+* @Description: LayoutPanel.java: UIå¸ƒå±€.
+* @Author wchyï¼ŒæŠ€æœ¯äº¤æµ(891946049).
+* @Date 2018å¹´2æœˆ1æ—¥ ä¸‹åˆ12:30:27.
+* @Content: æ–°å¢.
 * @Version: V1.0.
 */
 package xyz.wchy.ui;
@@ -26,18 +26,18 @@ import xyz.wchy.utils.TextNumberLimited;
 * 
 * @Description: 
 * <p>
-* UI²¼¾Ö.
+* UIå¸ƒå±€.
 * </p>
 * <p>
-* ÏêÏ¸ÃèÊö.
+* è¯¦ç»†æè¿°.
 * </p>
 * <p>
-* Ê¾Àı´úÂë.
+* ç¤ºä¾‹ä»£ç .
 * </p>
 *
-* @Author: wchy£¬¼¼Êõ½»Á÷(891946049).
+* @Author: wchyï¼ŒæŠ€æœ¯äº¤æµ(891946049).
 * 
-* @Date: 2018Äê2ÔÂ1ÈÕ ÏÂÎç12:30:27.
+* @Date: 2018å¹´2æœˆ1æ—¥ ä¸‹åˆ12:30:27.
 * 
 */
 public class LayoutPanel extends JPanel 
@@ -56,11 +56,11 @@ public class LayoutPanel extends JPanel
 	
 	private static final JTextField timeNumberTf = domain.getTimeNumberTf();
 	
-	private static final JLabel horseLbl = new JLabel("ÂíÆ¥(Æ¥)£º");
+	private static final JLabel horseLbl = new JLabel("é©¬åŒ¹(åŒ¹)ï¼š");
 	
-	private static final JLabel timeLbl = new JLabel("Ê±¼ä(Ãë)£º");
+	private static final JLabel timeLbl = new JLabel("æ—¶é—´(ç§’)ï¼š");
 
-	// ÉèÖÃ²¼¾Ö
+	// è®¾ç½®å¸ƒå±€
 	public LayoutPanel() 
 	{
 

@@ -2,10 +2,10 @@
 * @FileName: DomainHelper.java
 * @Package: xyz.wchy.utils
 * @Copyright: 2018 bincool.github.io Inc. All Rights Reserved.
-* @Description: DomainHelper.java: ÁìÓò¶ÔÏó°ïÖúÀà.
-* @Author wchy£¬¼¼Êõ½»Á÷(891946049).
-* @Date 2018Äê1ÔÂ31ÈÕ ÉÏÎç16:38:40.
-* @Content: ĞÂÔö.
+* @Description: DomainHelper.java: é¢†åŸŸå¯¹è±¡å¸®åŠ©ç±».
+* @Author wchyï¼ŒæŠ€æœ¯äº¤æµ(891946049).
+* @Date 2018å¹´1æœˆ31æ—¥ ä¸Šåˆ16:38:40.
+* @Content: æ–°å¢.
 * @Version: V1.0.
 */
 package xyz.wchy.utils;
@@ -22,72 +22,72 @@ import xyz.wchy.ui.HorsePanel;
 * 
 * @Description: 
 * <p>
-* ÁìÓò¶ÔÏó°ïÖúÀà£ºÎÄ±¾Óò¡¢iframe¡¢....
+* é¢†åŸŸå¯¹è±¡å¸®åŠ©ç±»ï¼šæ–‡æœ¬åŸŸã€iframeã€....
 * </p>
 * <p>
-* ÏêÏ¸ÃèÊö.
+* è¯¦ç»†æè¿°.
 * </p>
 * <p>
-* Ê¾Àı´úÂë.
+* ç¤ºä¾‹ä»£ç .
 * </p>
 *
-* @Author: wchy£¬¼¼Êõ½»Á÷(891946049).
+* @Author: wchyï¼ŒæŠ€æœ¯äº¤æµ(891946049).
 * 
-* @Date: 2018Äê1ÔÂ31ÈÕ ÉÏÎç16:38:40.
+* @Date: 2018å¹´1æœˆ31æ—¥ ä¸Šåˆ16:38:40.
 * 
 */
 public class DomainHelper 
 {
 	
 	/**
-	 * Ö÷´°Ìå.
+	 * ä¸»çª—ä½“.
 	 */
 	private JFrame frame = new JFrame();
 	
 	/**
-	 * ÈüÂípanel.
+	 * èµ›é©¬panel.
 	 */
 	private HorsePanel horsePanel = new HorsePanel();
 	
 	/**
-	 * ±ÈÈüÌá½»°´Å¥.
+	 * æ¯”èµ›æäº¤æŒ‰é’®.
 	 */
-	private JButton submitBtn = new JButton("¿ªÊ¼");
+	private JButton submitBtn = new JButton("å¼€å§‹");
 	
 	/**
-	 * ÂíÆ¥Êı.
+	 * é©¬åŒ¹æ•°.
 	 */
 	private JTextField horseNumberTf = new JTextField();
 	
 	/**
-	 * Ê±¼äÊı.
+	 * æ—¶é—´æ•°.
 	 */
 	private JTextField timeNumberTf = new JTextField();
 	
 	/**
-	 * ÂíÆ¥.
+	 * é©¬åŒ¹.
 	 */
 	private Horse[] horses = new Horse[] {new Horse(1), new Horse(2), new Horse(3)};
 	
 	/**
-	 * ±ÈÈüÍ£Ö¹±êÊ¶.
+	 * æ¯”èµ›åœæ­¢æ ‡è¯†.
 	 */
 	private boolean stop = false;
 	
 	/**
-	 * ÁìÓò¶ÔÏóÊµÀı.
+	 * é¢†åŸŸå¯¹è±¡å®ä¾‹.
 	 */
 	private static final DomainHelper instance = new DomainHelper();
 	
 	/**
-	 * Ë½ÓĞ¹¹Ôìº¯Êı.
+	 * ç§æœ‰æ„é€ å‡½æ•°.
 	 */
 	private DomainHelper() 
 	{
 	}
 	
 	/**
-	 * »ñÈ¡ÁìÓò¶ÔÏóÊµÀı.
+	 * è·å–é¢†åŸŸå¯¹è±¡å®ä¾‹.
 	 * @return
 	 */
 	public static DomainHelper getInstance() 
@@ -96,7 +96,7 @@ public class DomainHelper
 	}
 
 	/**
-	 * ³õÊ¼»¯ÏµÍ³ÁìÓò¶ÔÏó.
+	 * åˆå§‹åŒ–ç³»ç»Ÿé¢†åŸŸå¯¹è±¡.
 	 */
 	public void initDomain() 
 	{
@@ -104,7 +104,7 @@ public class DomainHelper
 	}
 
 	/**
-	 * »ñÈ¡frame.
+	 * è·å–frame.
 	 * @return
 	 *     frame.
 	 */
@@ -114,7 +114,7 @@ public class DomainHelper
 	}
 
 	/**
-	 * »ñÈ¡horsePanel.
+	 * è·å–horsePanel.
 	 * @return
 	 *     horsePanel.
 	 */
@@ -124,7 +124,7 @@ public class DomainHelper
 	}
 
 	/**
-	 * »ñÈ¡submitBtn.
+	 * è·å–submitBtn.
 	 * @return
 	 *     submitBtn.
 	 */
@@ -134,7 +134,7 @@ public class DomainHelper
 	}
 
 	/**
-	 * »ñÈ¡horseNumberTf.
+	 * è·å–horseNumberTf.
 	 * @return
 	 *     horseNumberTf.
 	 */
@@ -144,7 +144,7 @@ public class DomainHelper
 	}
 
 	/**
-	 * »ñÈ¡timeNumberTf.
+	 * è·å–timeNumberTf.
 	 * @return
 	 *     timeNumberTf.
 	 */
@@ -154,7 +154,7 @@ public class DomainHelper
 	}
 
 	/**
-	 * »ñÈ¡horses.
+	 * è·å–horses.
 	 * @return
 	 *     horses.
 	 */
@@ -164,7 +164,7 @@ public class DomainHelper
 	}
 
 	/**
-	 * ÉèÖÃhorses.
+	 * è®¾ç½®horses.
 	 * @param
 	 *     horses.
 	 */
@@ -174,7 +174,7 @@ public class DomainHelper
 	}
 
 	/**
-	 * ÉèÖÃstop.
+	 * è®¾ç½®stop.
 	 * @param
 	 *     stop.
 	 */
@@ -184,7 +184,7 @@ public class DomainHelper
 	}
 	
 	/**
-	 * »ñÈ¡stop.
+	 * è·å–stop.
 	 * @return
 	 *     stop.
 	 */

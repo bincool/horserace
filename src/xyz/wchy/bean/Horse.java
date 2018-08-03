@@ -2,10 +2,10 @@
 * @FileName: Horse.java
 * @Package: xyz.wchy.bean
 * @Copyright: 2018 bincool.github.io Inc. All Rights Reserved.
-* @Description: Horse.java: ÂíÆ¥bean.
-* @Author wchy£¬¼¼Êõ½»Á÷(891946049).
-* @Date 2018Äê2ÔÂ1ÈÕ ÉÏÎç11:37:14.
-* @Content: ĞÂÔö.
+* @Description: Horse.java: é©¬åŒ¹bean.
+* @Author wchyï¼ŒæŠ€æœ¯äº¤æµ(891946049).
+* @Date 2018å¹´2æœˆ1æ—¥ ä¸Šåˆ11:37:14.
+* @Content: æ–°å¢.
 * @Version: V1.0.
 */
 package xyz.wchy.bean;
@@ -16,30 +16,30 @@ import xyz.wchy.utils.DomainHelper;
 * 
 * @Description: 
 * <p>
-* ÂíÆ¥bean.
+* é©¬åŒ¹bean.
 * </p>
 * <p>
-* ÏêÏ¸ÃèÊö.
+* è¯¦ç»†æè¿°.
 * </p>
 * <p>
-* Ê¾Àı´úÂë.
+* ç¤ºä¾‹ä»£ç .
 * </p>
 *
-* @Author: wchy£¬¼¼Êõ½»Á÷(891946049).
+* @Author: wchyï¼ŒæŠ€æœ¯äº¤æµ(891946049).
 * 
-* @Date: 2018Äê2ÔÂ1ÈÕ ÉÏÎç11:37:14.
+* @Date: 2018å¹´2æœˆ1æ—¥ ä¸Šåˆ11:37:14.
 * 
 */
 public class Horse extends Thread implements Comparable<Horse>, Cloneable 
 {
 	
 	/**
-	 * ÂíÆ¥Î»ÖÃ.
+	 * é©¬åŒ¹ä½ç½®.
 	 */
 	private int position = 0;
 	
 	/**
-	 * ÅÜµ½ºÅ.
+	 * è·‘åˆ°å·.
 	 */
 	private int trackNumber = 0;
 	
@@ -64,7 +64,7 @@ public class Horse extends Thread implements Comparable<Horse>, Cloneable
 	}
 	
 	/**
-	 * »ñÈ¡position.
+	 * è·å–position.
 	 * @return
 	 *     position.
 	 */
@@ -74,7 +74,7 @@ public class Horse extends Thread implements Comparable<Horse>, Cloneable
 	}
 
 	/**
-	 * »ñÈ¡trackNumber.
+	 * è·å–trackNumber.
 	 * @return
 	 *     trackNumber.
 	 */
@@ -135,7 +135,7 @@ public class Horse extends Thread implements Comparable<Horse>, Cloneable
 	@Override
 	public String toString() 
 	{
-		return trackNumber + "ºÅ";
+		return trackNumber + "å·";
 	}
 	
 }
